@@ -114,7 +114,7 @@ declare module '#app' {
 
 ### VitePwaManifest/NuxtPwaManifest in app.vue
 
-When adding `VitePwaManifest` or `NuxtPwaComponent` component to your `app.vue`:
+When adding `VitePwaManifest` or `NuxtPwaManifest` component to your `app.vue`:
 ```vue
 <template>
   <VitePwaManifest />
@@ -177,4 +177,4 @@ This new feature includes:
 - new `useApplePwaIcon`, `useAppleSplashScreenPwaIcon`, `useFaviconPwaIcon`, `useMaskablePwaIcon` and `useTransparentPwaIcon` composables
 - injects `$pwaIcons` with all configured PWA icons: you can use them via `useNuxtApp().$pwaIcons` or inside your Vue templates
 
-New components, composables and `$pwaIcons` injection are statically analisable, that's, pwa icons types are generated when running `nuxt prepare` command: if you want to disable the PWA assets you don't need to remove the code (you can remove unused components/code later if you want to remove the new feature).
+New components, composables and `$pwaIcons` injection are statically analysable, that's, pwa icons types are generated when running `nuxt prepare` command: if you want to disable the PWA assets you don't need to remove the code (you can remove unused components/code later if you want to remove the new feature).
